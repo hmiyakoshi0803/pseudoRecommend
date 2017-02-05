@@ -1,0 +1,1 @@
+{ "explain": false, "query": { "more_like_this": { "fields": [ "incident_message" ], "like_text": "#REPLACE_TERGET#", "min_term_freq": 1, "max_query_terms": 12 } }}

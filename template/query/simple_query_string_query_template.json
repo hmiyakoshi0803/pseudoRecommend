@@ -1,0 +1,1 @@
+{ "explain": false, "query": { "simple_query_string": { "query": "#REPLACE_TERGET#", "boost": 1 } } } 

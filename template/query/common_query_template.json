@@ -1,0 +1,1 @@
+{ "explain": false, "query": { "common": { "incident_message": { "query": "#REPLACE_TERGET#", "boost": 1 } } } }

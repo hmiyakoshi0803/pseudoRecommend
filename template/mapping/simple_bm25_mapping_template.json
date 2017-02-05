@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "simple_bm25": {
+      "dynamic": "strict",
+      "properties": {
+        "knowlege_id": {
+          "type": "text",
+          "index": "not_analyzed"
+        },
+        "knowledge_title": {
+          "type": "text",
+          "index": "not_analyzed"
+        },
+        "incident_id": {
+          "type": "text",
+          "index": "not_analyzed"
+        },
+        "incident_title": {
+          "type": "text",
+          "index": "not_analyzed"
+        },
+        "incident_message": {
+          "type": "text",
+          "analyzer": "simple",
+          "similarity": "BM25"
+        }
+      }
+    }
+  }
+}

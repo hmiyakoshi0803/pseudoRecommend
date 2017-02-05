@@ -1,0 +1,1 @@
+{ "explain": false, "query": { "multi_match": { "query": "#REPLACE_TERGET#", "fields": [ "incident_message", "incident_title" ], "boost": 1 } } } 
